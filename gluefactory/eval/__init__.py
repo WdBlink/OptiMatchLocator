@@ -1,7 +1,7 @@
 import torch
 
-from utils.tools import get_class
-from eval.eval_pipeline import EvalPipeline
+from ..utils.tools import get_class
+from .eval_pipeline import EvalPipeline
 
 
 def get_benchmark(benchmark):

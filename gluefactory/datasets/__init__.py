@@ -1,7 +1,7 @@
 import importlib.util
 
-from utils.tools import get_class
-from datasets.base_dataset import BaseDataset
+from ..utils.tools import get_class
+from .base_dataset import BaseDataset
 
 
 def get_dataset(name):

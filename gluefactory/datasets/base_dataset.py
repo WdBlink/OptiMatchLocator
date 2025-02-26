@@ -16,8 +16,8 @@ from torch.utils.data._utils.collate import (
     np_str_obj_array_pattern,
 )
 
-from utils.tensor import string_classes
-from utils.tools import set_num_threads, set_seed
+from ..utils.tensor import string_classes
+from ..utils.tools import set_num_threads, set_seed
 
 logger = logging.getLogger(__name__)
 

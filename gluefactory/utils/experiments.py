@@ -13,8 +13,8 @@ from pathlib import Path
 import torch
 from omegaconf import OmegaConf
 
-from models import get_model
-from settings import TRAINING_PATH
+from ..models import get_model
+from ..settings import TRAINING_PATH
 
 logger = logging.getLogger(__name__)
 

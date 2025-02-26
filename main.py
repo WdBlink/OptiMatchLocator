@@ -1,16 +1,16 @@
 # If we are on colab: this clones the repo and installs the dependencies
 from lightglue import LightGlue, SuperPoint
-from lightglue.utils import load_image, read_image
+from lightglue.utils import load_image
 import torch
 import argparse
 import os
 import numpy as np
-from osgeo import gdal, osr, ogr
+from osgeo import gdal, ogr
 import timeit
 from PIL import Image
-from utils.pair_util import list_files, inference, get_center_aim, pixel_to_geolocation, visualize_and_save_matches, \
+from OptiMatchLocator.utils import list_files, inference, get_center_aim, pixel_to_geolocation, visualize_and_save_matches, \
     get_m_nums
-from utils.logger import Logger
+from OptiMatchLocator.utils import Logger
 import csv
 
 
